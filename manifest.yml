@@ -1,0 +1,9 @@
+---
+applications:
+- name: cf-lxyredis-demo
+  memory: 64M
+  disk_quota: 512M
+  instances: 1
+  random-route: true
+  buildpacks:
+  - https://github.com/cloudfoundry/python-buildpack.git
